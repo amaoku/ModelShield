@@ -1,0 +1,19 @@
+{
+    "model_type": "t5",
+    "model_name_or_path": "flan-t5-xl",
+    "data_path": "/data1/pky/dataset/HC3_ChatGPT_train_for_no_WM_origin_1-5148.json",
+    "output_dir": "/data1/pky/trained_model_t5-xl_no_WM_new0724/t5-100",
+  
+    "batch_size": 2,
+    "per_device_train_batch_size": 2,
+    "num_epochs": 100,
+    "learning_rate": 1e-5,
+    "cutoff_len": 256,
+    "val_set_size": 1000,
+    "val_set_rate": 0.1,
+    "save_steps": 100,
+    "eval_steps": 100,
+    "warmup_steps": 10,
+    "logging_steps": 10,
+    "gradient_accumulation_steps": 8
+  }

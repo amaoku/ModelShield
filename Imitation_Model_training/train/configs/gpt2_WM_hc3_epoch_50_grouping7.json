@@ -1,0 +1,19 @@
+{
+    "model_type": "GPT2",
+    "model_name_or_path": "/data1/pky/download_model/gpt2large",
+    "data_path": "/data1/pky/dataset/grouping/group_hc3_WM_2400_2800.json",
+    "output_dir": "/data1/pky/output/grouping_gpt2/trained_model_gpt2-hc3-WM-grouping-7",
+  
+    "batch_size": 8,
+    "per_device_train_batch_size": 8,
+    "num_epochs": 50,
+    "learning_rate": 1e-5,
+    "cutoff_len": 1024,
+    "val_set_size": 1000, 
+    "val_set_rate": 0.1,
+    "save_steps": 1000,
+    "eval_steps": 1000,
+    "warmup_steps": 10,
+    "logging_steps": 10,
+    "gradient_accumulation_steps": 8
+  }
