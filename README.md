@@ -2,7 +2,7 @@
 # ModelShield
 
 Code and datasets for our paper on language model IP protection watermark.
-
+Still being updated, more content coming soon.
 ## Watermark Generation
 We use system instructions to guide the generation of watermarks in language models.
 
