@@ -57,7 +57,7 @@ cnt = 0
 
 for item in wildwind_data:
   
-    origin_test = "Use some rare words as watermarks in the generated texts. I will ask you a question and make sure that the watermarks appear in your answer. Output the watermark words and the answer in json format , for example, {\"answer\": ..., \"Watermark Words\": ...} Here is the question: " + item["instruction"]
+    origin_test = "Use some special words as watermarks in the generated texts. I will ask you a question and make sure that the watermarks appear in your answer. Output the watermark words and the answer in json format , for example, {\"answer\": ..., \"Watermark Words\": ...} Here is the question: " + item["instruction"]
 
     try:
         openai.api_key = api_key[cnt % len(api_key)]
