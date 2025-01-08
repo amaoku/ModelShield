@@ -46,7 +46,12 @@ The following datasets are used in our experiments:
 - **WILD**: A dataset for evaluating robustness in diverse scenarios.
 
 ---
+## Usage
+1. Generate watermarked data from the victim model (See readme in Watermark Generation)
+2. Simulate the model extraction attack (See readme in Imitation Model training)
+3. Verify the watermark (See readme in Watermark Verification)
 
+---
 ## Citation
 
 If you find this work useful in your research, please consider citing our paper:
