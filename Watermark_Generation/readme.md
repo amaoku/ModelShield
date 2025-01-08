@@ -16,5 +16,5 @@ generating watermarked responses using OpenAI's language model (you can also use
   - Original question and model prediction.
 
 ## Usage
-
+```bash
 python watermark_generation.py
