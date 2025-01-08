@@ -10,7 +10,7 @@ Only the model training phase needs to take the environment into consideration. 
 We use system instructions to guide the generation of watermarks in language models.
 
 ## Imitation Model training
-fine-tuning imitation model with watermarked data.
+fine-tuning imitation model with watermarked data. We base our model training and fine-tuning on the [GitHub project](https://github.com/LianjiaTech/BELLE). Both full fine-tuning and LoRA fine-tuning are supported, and you can also choose your own fine-tuning method.
 
 ## Watermark Verification
 We offer two methods for watermark verification:
