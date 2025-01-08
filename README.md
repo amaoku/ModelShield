@@ -19,7 +19,7 @@ The environment setup is required only during the model training phase. Please r
 
 ---
 
-## Features
+## Stages
 
 ### 1. **Watermark Generation**
 We utilize system-level instructions to guide watermark generation in language models, ensuring seamless integration and high robustness. (need API-KEY for different LMaaS)
