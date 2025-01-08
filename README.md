@@ -52,7 +52,7 @@ The following datasets are used in our experiments:
 If you find this work useful in your research, please consider citing our paper:
 
 ```bibtex
-@article{pang2024adaptive,
+@article{modelshield,
   title={Adaptive and robust watermark against model extraction attack},
   author={Pang, Kaiyi and Qi, Tao and Wu, Chuhan and Bai, Minhao and Jiang, Minghu and Huang, Yongfeng},
   journal={arXiv preprint arXiv:2405.02365},
