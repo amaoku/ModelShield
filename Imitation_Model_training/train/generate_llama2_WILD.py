@@ -187,12 +187,12 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate")
-    parser.add_argument("--dev_file", type=str,default="/data1/pky/dataset/mix_V1/hc3_mix_0.01.json")
-    parser.add_argument("--model_name_or_path", type=str, default="/data1/pky/output/mix_V1/llama2_hc3_V1_mix_0.01", help="pretrained language model")
+    parser.add_argument("--dev_file", type=str)
+    parser.add_argument("--model_name_or_path", type=str, default="/path/to/your/fintuned/model", help="pretrained language model")
     parser.add_argument("--max_length", type=int, default=2048, help="max length of dataset")
     parser.add_argument("--dev_batch_size", type=int, default=1, help="batch size")
     parser.add_argument("--lora_weights", default="", type=str, help="use lora")
-    parser.add_argument("--output_file", type=str, default="/data1/pky/output/new_mixV1_result/predictions_0308_hc3_llama2_10eps_mix_V_0.01.json")
+    parser.add_argument("--output_file", type=str)
 
     args = parser.parse_args()
     batch_size = args.dev_batch_size
