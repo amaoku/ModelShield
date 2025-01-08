@@ -47,9 +47,9 @@ The following datasets are used in our experiments:
 
 ---
 ## Usage
-1. Generate watermarked data from the victim model (See readme in Watermark Generation)
-2. Simulate the model extraction attack (See readme in Imitation Model training)
-3. Verify the watermark (See readme in Watermark Verification)
+1. 1 Generate watermarked data from the victim model (See readme in Watermark Generation)
+2. 2 Simulate the model extraction attack (See readme in Imitation Model training)
+3. 3 Verify the watermark (See readme in Watermark Verification)
 
 ---
 ## Citation
