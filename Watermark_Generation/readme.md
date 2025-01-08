@@ -1,4 +1,4 @@
-# Watermark Generation Script
+# Watermark Generation 
 
 generating watermarked responses using OpenAI's language model (you can also use it to other LMaaS). The generated watermarked text includes special watermark words embedded in the answers to provided questions.
 
